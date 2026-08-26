@@ -5,9 +5,11 @@ import { Player } from './lib/player.js';
 import { getProxyBase, setProxyBase } from './lib/proxy.js';
 
 const REPO = 'https://raw.githubusercontent.com/dhasap/dhanytv/main';
+const REPO_PROXIED = 'https://raw.githubusercontent.com/zalviandyr/dhanytv/experiment';
 const SOURCES = {
-  ott:  { url: `${REPO}/dhanytv-ott.m3u`, label: 'OTT (kompatibel)' },
-  full: { url: `${REPO}/dhanytv.m3u`,     label: 'Lengkap (DRM)' },
+  ott:     { url: `${REPO}/dhanytv-ott.m3u`,             label: 'OTT (kompatibel)' },
+  proxied: { url: `${REPO_PROXIED}/dhanytv-proxied.m3u`, label: 'Proxied (Smart TV)' },
+  full:    { url: `${REPO}/dhanytv.m3u`,                  label: 'Lengkap (DRM)' },
 };
 const EPG_URL = `${REPO}/epg.xml`;
 const CACHE_TTL = 60 * 60 * 1000;

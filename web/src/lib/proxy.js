@@ -15,9 +15,25 @@ export function setProxyBase(url) {
 }
 export function hasProxy() { return !!getProxyBase(); }
 
-// Channel butuh proxy bila punya header khusus.
+// Channel butuh proxy bila punya header khusus ATAU URL-nya http:// (CSP blokir mixed content).
 export function needsProxy(channel) {
-  return channel && channel.headers && Object.keys(channel.headers).length > 0;
+  if (!channel) return false;
+  if (channel.headers && Object.keys(channel.headers).length > 0) return true;
+  if (channel.url && channel.url.startsWith('http://')) return true;
+  return false;
+}
+
+// HTTP stream di port non-standar / bare IP — tidak bisa diproxy lewat Cloudflare Workers.
+export function isUnproxyable(channel) {
+  if (!channel || !channel.url) return false;
+  try {
+    const u = new URL(channel.url);
+    if (u.protocol !== 'http:') return false;
+    const port = u.port || '80';
+    if (!['80', '443', '8080', '8443'].includes(port)) return true;
+    if (/^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(u.hostname)) return true;
+  } catch {}
+  return false;
 }
 
 /**

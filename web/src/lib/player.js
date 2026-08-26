@@ -3,7 +3,7 @@
 //   DASH (.mpd) + DRM (ClearKey / Widevine) -> Shaka Player (EME)
 // Integrasi stream-proxy (Fase 2) untuk inject header + atasi CORS.
 
-import { needsProxy, hasProxy, proxify, getProxyBase } from './proxy.js';
+import { needsProxy, hasProxy, proxify, getProxyBase, isUnproxyable } from './proxy.js';
 
 export class Player {
   constructor(videoEl, { onState } = {}) {
@@ -29,12 +29,17 @@ export class Player {
     this.levels = [];
     this._set('loading');
 
+    if (isUnproxyable(channel)) {
+      this._set('error', 'Channel ini hanya bisa diputar di aplikasi IPTV (TiviMate, OTTNavigator, VLC) — tidak dapat diputar di browser karena menggunakan HTTP di port non-standar.');
+      return;
+    }
+
     const proxyReady = hasProxy();
     const useProxy = needsProxy(channel) && proxyReady;
 
     // Channel butuh header tapi belum ada proxy -> beri tahu jelas.
     if (needsProxy(channel) && !proxyReady) {
-      this._set('error', 'Channel ini butuh header khusus (Referer/User-Agent) → aktifkan Stream Proxy di Pengaturan (⚙) untuk memutarnya. Bisa juga geo-locked di luar Indonesia.');
+      this._set('error', 'Channel ini butuh proxy (header khusus atau HTTP) → aktifkan Stream Proxy di Pengaturan (⚙) untuk memutarnya.');
       return;
     }
 
