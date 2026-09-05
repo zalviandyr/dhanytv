@@ -7,7 +7,8 @@ Pemakaian:
 
 - Manifest tak terbaca / geo / timeout -> entri DIPERTAHANKAN (tidak bisa divalidasi).
 - KID terbaca & match   -> entri DIPERTAHANKAN.
-- KID terbaca & mismatch-> entri DIBUANG (pasti gagal dekripsi).
+- KID terbaca & mismatch-> entri DIPERTAHANKAN (provider sering rotasi KID, key dari
+  sumber lain mungkin tetap valid). Hanya dilaporkan sebagai statistik.
 """
 import concurrent.futures as cf
 import re, sys, ssl, urllib.request, ssl as _ssl
@@ -31,7 +32,7 @@ def fetch_kid(url):
 txt=open(M3U,encoding='utf-8',errors='replace').read()
 blocks=re.split(r'(?=^#EXTINF)', txt, flags=re.M)
 
-kept, dropped, unverif = [], [], []
+kept, mismatch, unverif = [], [], []
 def validate(block):
     url=None; kid_entry=None
     for l in block.splitlines():
@@ -48,30 +49,37 @@ def validate(block):
     # itself is unreachable (stream confirmed offline).
     return block, f'mismatch-but-kept kid={kid_m[:8]}'
 
+# Deterministic: validate concurrently but rebuild in ORIGINAL block order,
+# preserving non-EXTINF blocks (header/comments). as_completed-ordered output
+# used to shuffle the playlist randomly on every run.
+results = {}
 with cf.ThreadPoolExecutor(max_workers=16) as ex:
-    futs={ex.submit(validate,b): b for b in blocks if b.startswith('#EXTINF')}
-    others=[b for b in blocks if not b.startswith('#EXTINF')]
+    futs = {ex.submit(validate, b): idx
+            for idx, b in enumerate(blocks) if b.startswith('#EXTINF')}
     for f in cf.as_completed(futs):
-        b=futs[f]
+        idx = futs[f]
         newb, status = f.result()
-        if status.startswith('mismatch'):
-            dropped.append((status, b.splitlines()[0][-50:]))
-        elif status=='unverifiable':
-            unverif.append(b)
-        kept.append(newb if newb else '')
+        results[idx] = (newb, status)
 
-new_txt=''.join(o for o in others) if False else '\n'.join([k for k in kept if k is not None])
-# rebuild sederhana: gabung blok yang dipertahankan dengan pemisah baris
-out=[]
-for k in kept:
-    if k: out.append(k.strip('\n'))
+out = []
+for idx, b in enumerate(blocks):
+    if idx in results:
+        newb, status = results[idx]
+        if status.startswith('mismatch'):
+            mismatch.append((status, b.splitlines()[0][-50:]))
+        elif status == 'unverifiable':
+            unverif.append(b)
+        if newb:
+            out.append(newb.strip('\n'))
+    elif b.strip():
+        out.append(b.strip('\n'))
 new='\n\n'.join(out)+'\n'
 # pertahankan header
 hdr=txt.splitlines()[0]
 if not new.startswith('#EXTM3U'): new=hdr+'\n'+new
 
-print(f'dropped (KID mismatch): {len(dropped)}')
-for s,n in dropped: print('  ',s,'|',n)
+print(f'mismatch (KID beda, tetap dipertahankan): {len(mismatch)}')
+for s,n in mismatch: print('  ',s,'|',n)
 print(f'unverifiable (geo/offline): {len(unverif)}')
 if WRITE:
     open(M3U,'w',encoding='utf-8').write(new)
