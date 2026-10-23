@@ -33,9 +33,6 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F5bf7b725107
 #EXTINF:-1 tvg-id="auto.bungo.tv" group-title="Indonesia Channels",Bungo TV
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F5bf7b725107e5.streamlock.net%2Fbungotv%2Fbungotv%2Fplaylist.m3u8
 
-#EXTINF:-1 tvg-id="auto.ficom.channel" group-title="Indonesia Channels",Ficom Channel
-https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fv3.siar.us%2Fficomchannel%2Flive%2Fplaylist.m3u8
-
 #EXTINF:-1 tvg-id="MetroTV.id" group-title="Indonesia Channels",MetroTV (Flashcon)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=http%3A%2F%2Fop-flashcon-digdayahd-1.dens.tv%2Fh%2Fh12%2F01.m3u8&h=eyJSZWZlcmVyIjoiaHR0cHM6Ly93d3cuZGVucy50di8iLCJPcmlnaW4iOiJodHRwczovL3d3dy5kZW5zLnR2IiwiVXNlci1BZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS85Ny4wLjQ2OTIuOTkgU2FmYXJpLzUzNy4zNiJ9
 
@@ -137,6 +134,9 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=http%3A%2F%2Fcdn.nng.clou
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fedge.medcom.id%2Flive-edge%2Fsmil%3Amagna.smil%2Fchunklist_w521170343_b1128000_sleng.m3u8&h=eyJPcmlnaW4iOiJodHRwczovLzIwLmRldGlrLmNvbSIsIlVzZXItQWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA5LjAuMC4wIFNhZmFyaS81MzcuMzYifQ%3D%3D
 
 
+#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Indonesia Channels",Trans7 HD (Detik)
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Flive.cnbcindonesia.com%2Ftrans7%2Fsmil%3Atrans7.smil%2Fplaylist.m3u8
+
 #EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png" group-title="Indonesia Channels",MDTV (DensTV)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fop-flashcon-digdayahd-1.dens.tv%2Fh%2Fh223%2F02.m3u8&h=eyJSZWZlcmVyIjoiaHR0cHM6Ly93d3cuZGVucy50di8iLCJPcmlnaW4iOiJodHRwczovL3d3dy5kZW5zLnR2IiwiVXNlci1BZ2VudCI6Ik1vemlsbGEvNS4wIChYMTE7IExpbnV4IHg4Nl82NDsgcnY6MTAyLjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTAyLjAvdjIyMDYifQ%3D%3D
 
@@ -204,10 +204,7 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fafrica24.ve
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F5c7b683162943.streamlock.net%2Flive%2Fngrp%3Asportsone_all%2Fplaylist.m3u8
 
 #EXTINF:-1 tvg-id="auto.bein.sports.eng.1.720p" group-title="Sports",beIN Sports ENG 1 (720p)
-https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fbein-xtra-bein.amagi.tv%2FplaylistR720P.m3u8
-
-#EXTINF:-1 tvg-id="Motorvision" tvg-logo="https://i.imgur.com/WhTcCyi.jpeg" group-title="Sports",MOTORVISION+ (DensTV)
-https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fop-flashcon-digdayahd-1.dens.tv%2Fh%2Fh09%2Findex.m3u8%3Fapp_type%3Dweb%26userid%3Dlite%26chname%3DMotorvision%252B&h=eyJSZWZlcmVyIjoiaHR0cHM6Ly9yb2hhbjExNi51bHRyb254MS5jZmQvMDAwLyIsIk9yaWdpbiI6Imh0dHBzOi8vd3d3LmRlbnMudHYiLCJVc2VyLUFnZW50IjoiTW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDEwOyBLKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTI0LjAuMC4wIE1vYmlsZSBTYWZhcmkvNTM3LjM2In0%3D
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fbein-xtra-bein.amagi.tv%2FplaylistR720P.m3u8&h=eyJSZWZlcmVyIjoiaHR0cHM6Ly9yb2hhbjExNi51bHRyb254MS5jZmQvMDAwLyIsIlVzZXItQWdlbnQiOiJNb3ppbGxhLzUuMCAoTGludXg7IEFuZHJvaWQgMTA7IEspIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMjQuMC4wLjAgTW9iaWxlIFNhZmFyaS81MzcuMzYifQ%3D%3D
 
 
 #EXTINF:-1 tvg-id="auto.dazn.ringside" group-title="Sports" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKVJVdXD6NTy8nMOIOb_mqewV8NZMUjHdPog&s", DAZN RINGSIDE
@@ -232,8 +229,23 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fnewidco-bab
 #EXTINF:-1 tvg-id="auto.pbs.kids" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLGYiAdfK3MzVKW-XAfibrlo84-aL92_5byqlsuq5LLg&s=10" group-title="Kids",PBS Kids
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F2-fss-2.streamhoster.com%2Fpl_140%2Famlst%3A200914-1298290%2Fplaylist.m3u8
 
+#EXTINF:-1 tvg-id="auto.tvp.sports.poland" tvg-logo="https://png.pngtree.com/png-clipart/20250628/original/pngtree-golden-fifa-2026-trophy-isolated-on-clean-white-background-png-image_21215061.png" group-title="WorldCup 2026",TVP Sports (Poland)
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F1nyaler.streamhostingcdn.top%2Fstream%2F89%2Findex.m3u8
+
+#EXTINF:-1 tvg-id="auto.win.sports" tvg-logo="https://png.pngtree.com/png-clipart/20250628/original/pngtree-golden-fifa-2026-trophy-isolated-on-clean-white-background-png-image_21215061.png" group-title="WorldCup 2026",WIN Sports
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F1nyaler.streamhostingcdn.top%2Fstream%2F32%2Findex.m3u8
+
 #EXTINF:-1 tvg-id="auto.telemundo.us" tvg-logo="https://png.pngtree.com/png-clipart/20250628/original/pngtree-golden-fifa-2026-trophy-isolated-on-clean-white-background-png-image_21215061.png" group-title="WorldCup 2026",Telemundo (US)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fnbculocallive.akamaized.net%2Fhls%2Flive%2F2037499%2Fpuertorico%2Fstream1%2Fmaster.m3u8
+
+#EXTINF:-1 tvg-id="auto.d.sports" tvg-logo="https://png.pngtree.com/png-clipart/20250628/original/pngtree-golden-fifa-2026-trophy-isolated-on-clean-white-background-png-image_21215061.png" group-title="WorldCup 2026",D Sports
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F1nyaler.streamhostingcdn.top%2Fstream%2F106%2Findex.m3u8
+
+#EXTINF:-1 tvg-id="auto.tudn.sports" tvg-logo="https://png.pngtree.com/png-clipart/20250628/original/pngtree-golden-fifa-2026-trophy-isolated-on-clean-white-background-png-image_21215061.png" group-title="WorldCup 2026",Tudn Sports
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F1nyaler.streamhostingcdn.top%2Fstream%2F52%2Findex.m3u8
+
+#EXTINF:-1 tvg-id="auto.fs2" tvg-logo="https://i.imgur.com/LHtxKI8.png" group-title="WorldCup 2026",FS2
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F1nyaler.streamhostingcdn.top%2Fstream%2F26%2Findex.m3u8
 
 #EXTINF:-1 tvg-id="auto.dd.sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/DD_Sports_Logo.svg/960px-DD_Sports_Logo.svg.png" group-title="WorldCup 2026",DD Sports
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fd3qs3d2rkhfqrt.cloudfront.net%2Fout%2Fv1%2Fb17adfe543354fdd8d189b110617cddd%2Findex.m3u8
@@ -255,6 +267,9 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fcdn-tt.page
 
 #EXTINF:-1 tvg-id="auto.fifa.toffee.live.alt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="WorldCup 2026",FIFA+ (Toffee Live Alt)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fcdn-tt.pages.dev%2Fch2.m3u8
+
+#EXTINF:-1 tvg-id="auto.fox.sports.1.alt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="WorldCup 2026",FOX Sports 1 (Alt)
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F1nyaler.streamhostingcdn.top%2Fstream%2F23%2Findex.m3u8
 
 #EXTINF:-1 tvg-id="timor.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Local Channels",Timor TV
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=http%3A%2F%2F122.248.43.242%3A1935%2FTIMORTV%2F_definst_%2FmyStream%2Fplaylist.m3u8
@@ -419,9 +434,6 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F5f22d76e220
 #EXTINF:-1 tvg-id="EsperiaTV.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/ESPERIATV18_verde.png" group-title="Italy Channels",Esperia TV (480p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=http%3A%2F%2Fwms.shared.streamshow.it%2Fesperiatv%2Fesperiatv%2Fplaylist.m3u8
 
-#EXTINF:-1 tvg-id="EtnaEspressoChannel.it@SD" tvg-logo="https://i.imgur.com/lSI5QgV.png" group-title="Italy Channels",Etna Espresso Channel (720p)
-https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F5db313b643fd8.streamlock.net%2FEtnachannelponte%2FEtnachannelponte%2Fplaylist.m3u8
-
 #EXTINF:-1 tvg-id="GiornaleRadioTV.it@SD" tvg-logo="https://i.imgur.com/2Y5qiao.png" group-title="Italy Channels",Giornale Radio TV (720p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F5f204aff97bee.streamlock.net%2FGR_tv%2Flivestream%2Fplaylist.m3u8
 
@@ -433,9 +445,6 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fstream2.xde
 
 #EXTINF:-1 tvg-id="InterTV.it@SD" tvg-logo="https://i.imgur.com/FUTqh2L.png" group-title="Italy Channels",Inter TV (1080p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fd3k8wzt41aflvx.cloudfront.net%2FINTERTV%2FLive.m3u8
-
-#EXTINF:-1 tvg-id="HorseTV.it@SD" tvg-logo="https://i.imgur.com/nK4UUX4.png" group-title="Italy Channels",Horse TV (720p)
-https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fa-cdn.klowdtv.com%2Flive2%2Fhorsetv_720p%2Fplaylist.m3u8
 
 #EXTINF:-1 tvg-id="CusanoItaliaTV.it@SD" tvg-logo="https://i.imgur.com/fOluzuE.png" group-title="Italy Channels",Cusano Italia TV (720p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Frouter.xdevel.com%2Fvideo0s975363-69%2Fstream%2Fplaylist.m3u8
@@ -602,9 +611,6 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fc.streamhos
 #EXTINF:-1 tvg-id="afrolandtv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Entertainment Channels",AfroLandTV (1080p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Falt-al.otteravision.com%2Falt%2Fal%2Fal.m3u8
 
-#EXTINF:-1 tvg-id="aguacate.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Entertainment Channels",Aguacate TV (1080p)
-https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fstreamtv.intervenhosting.net%3A3040%2Fhybrid%2Fplay.m3u8
-
 #EXTINF:-1 tvg-id="alt.media.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Entertainment Channels",Alt Media TV
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fvideo.hostingcaaguazu.com%3A19360%2Faltmedia%2Faltmedia.m3u8
 
@@ -752,9 +758,6 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=http%3A%2F%2F168.228.44.2
 #EXTINF:-1 tvg-id="balapan.hd" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Kids Channels",Balapan HD (1080p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fbalapantv-stream.qazcdn.com%2Fbalapantv%2Fbalapantv%2Fplaylist.m3u8
 
-#EXTINF:-1 tvg-id="balapan.international" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Kids Channels",Balapan International (1080p)
-https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Flive-3.otcnet.ru%2FBalapan%2Findex.m3u8
-
 #EXTINF:-1 tvg-id="bolajon" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Kids Channels",Bolajon (576p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fstream8.cinerama.uz%2F1007%2Fplaylist.m3u8
 
@@ -832,6 +835,9 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Famg00405-ra
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Famg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv%2Fplaylist.m3u8&h=eyJVc2VyLUFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEzMC4wLjAuMCBTYWZhcmkvNTM3LjM2In0%3D
 
 
+#EXTINF:-1 tvg-id="chemodan.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Documentary Channels",Chemodan TV (1080p)
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=http%3A%2F%2Fstream.mcquack.net%2F399%2Findex.m3u8
+
 #EXTINF:-1 tvg-id="china.travel" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Documentary Channels",China Travel (1080p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Ffastlive.cctvplus.com%2Fout%2Fv1%2Fca6f9297b7314a63959435028af287fc%2Findex.m3u8
 
@@ -850,6 +856,9 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fdash2.antik
 
 #EXTINF:-1 tvg-id="1.1.ukraina" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="General Channels",1+1 Ukraina (1080p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=http%3A%2F%2Fstream.mcquack.net%2F219%2Findex.m3u8
+
+#EXTINF:-1 tvg-id="16tv.budapest" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="General Channels",16tv Budapest (360p)
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fcloudfront44.lexanetwork.com%3A1344%2Ffreerelay%2F16tv.sdp%2Fplaylist.m3u8
 
 #EXTINF:-1 tvg-id="1almere.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="General Channels",1Almere TV (720p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fd3472rjicrodic.cloudfront.net%2Fnlpo%2Fclr-nlpo%2F709d5260%2Findex.m3u8
@@ -919,9 +928,6 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fmediaserver
 #EXTINF:-1 tvg-id="ada.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Religious Channels",ADA TV (720p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Flive-evg10.tv360.bitel.com.pe%2Fbitel%2FalasdeaguilaSRT%2Fplaylist.m3u8
 
-#EXTINF:-1 tvg-id="aastha.kannada" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Religious Channels",Aastha Kannada (480p)
-https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Faasthaott.akamaized.net%2F110923%2Fsmil%3Aaasthakannada.smil%2Fplaylist.m3u8
-
 #EXTINF:-1 tvg-id="aastha.prime.1" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Religious Channels",Aastha Prime 1 (720p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Faasthaott.akamaized.net%2F110923%2Fsmil%3Aaasthaprime1.smil%2Fmaster.m3u8
 
@@ -951,6 +957,9 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Famg00353-li
 
 #EXTINF:-1 tvg-id="at.home.with.family.handyman" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Series Channels",At Home with Family Handyman (720p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fd1ik2p49apxqjf.cloudfront.net%2Fplaylist.m3u8
+
+#EXTINF:-1 tvg-id="balabol" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Series Channels",Balabol (1080p)
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fcdn-dvr.ntv.ru%2FBalabol%2Findex.m3u8
 
 #EXTINF:-1 tvg-id="abn.bible.movies" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Movies Channels",ABN Bible Movies (720p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fmediaserver.abnvideos.com%2Fstreams%2Fabnbiblemovies.m3u8&h=eyJVc2VyLUFnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzE0OS4wLjAuMCBTYWZhcmkvNTM3LjMifQ%3D%3D
@@ -1012,10 +1021,10 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fop-flashcon
 #EXTINF:-1 tvg-id="auto.musica" group-title="Music" tvg-logo="https://i.postimg.cc/SQTLjRnj/ezgif-4e840dec9df68523.png",MUSICA
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Faspaltvpasti.top%2FDrmvidbos%2FAkun121%2Fbosstv.m3u8%3Fid%3D7619
 
-#EXTINF:-1 group-title="News" tvg-id="Al Jazeera Arabic" tvg-logo="https://www.mncvision.id/userfiles/image/channel/aljazeera.png",Al Jazeera Arabic (DensTV)
+#EXTINF:-1 group-title="Trial Channel" tvg-id="Al Jazeera Arabic" tvg-logo="https://www.mncvision.id/userfiles/image/channel/aljazeera.png",Al Jazeera Arabic (DensTV)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fop-flashcon-digdayahd-1.dens.tv%2Fs%2Fs16%2Findex.m3u8&h=eyJSZWZlcmVyIjoiaHR0cHM6Ly93d3cuZGVucy50di8iLCJPcmlnaW4iOiJodHRwczovL3d3dy5kZW5zLnR2IiwiVXNlci1BZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS85Ny4wLjQ2OTIuOTkgU2FmYXJpLzUzNy4zNiJ9
-# EXTINF:-1 group-title="News" tvg-id="CNN International" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml" tvg-name="CNN" tvg-logo="https://w7.pngwing.com/pngs/335/473/png-transparent-cnn-international-fox-news-television-tv-channel-television-text-logo.png",CNN Int HD
-# EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="News" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_nhkworldjapan.png",NHK World Japan (Vision+)
+# EXTINF:-1 group-title="Trial Channel" tvg-id="CNN International" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml" tvg-name="CNN" tvg-logo="https://w7.pngwing.com/pngs/335/473/png-transparent-cnn-international-fox-news-television-tv-channel-television-text-logo.png",CNN Int HD
+# EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" group-title="Trial Channel" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_nhkworldjapan.png",NHK World Japan (Vision+)
 
 #EXTINF:-1 tvg-id="auto.tv1" tvg-logo="https://raw.githubusercontent.com/Iqbalbala/CHANNEL/refs/heads/main/tv1my.png" group-title="Malaysia",TV1 HD
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fd25tgymtnqzu8s.cloudfront.net%2Fmain%2FA0jyR3%2Fdl_1080p.m3u8
@@ -1259,9 +1268,6 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fpixeldrain.
 #EXTINF:-1 tvg-id="auto.kisah.tanah.jawa.pocong.gundul" group-title="VOD INDO",Kisah Tanah Jawa: Pocong Gundul
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fpixeldrain.com%2Fapi%2Ffile%2FxTZuUgAW%3Fdownload
 
-#EXTINF:-1 tvg-id="auto.kutukan.sembilan.setan" group-title="VOD INDO",Kutukan Sembilan Setan
-https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fpixeldrain.com%2Fapi%2Ffile%2Fsmj56rTF%3Fdownload
-
 #EXTINF:-1 tvg-id="auto.malam.para.jahanam" group-title="VOD INDO",Malam Para Jahanam
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fpixeldrain.com%2Fapi%2Ffile%2Fa9Y8CEgx%3Fdownload
 
@@ -1272,9 +1278,6 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fpixeldrain.
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fpixeldrain.com%2Fapi%2Ffile%2FvUGDTTXc%3Fdownload
 # "https://pixeldrain.com/api/file/RAo1H7gc?download
 # "
-
-#EXTINF:-1 tvg-id="auto.siksa.neraka" group-title="VOD INDO",Siksa Neraka
-https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fpixeldrain.com%2Fapi%2Ffile%2FYa2YKE7h%3Fdownload
 
 #EXTINF:-1 tvg-id="auto.kuyang" group-title="VOD INDO",Kuyang
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fpixeldrain.com%2Fapi%2Ffile%2FBPrv72bw%3Fdownload
@@ -1409,9 +1412,6 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fstream.ottl
 
 #EXTINF:-1 tvg-id="AaseervathamTV.in@SD" tvg-logo="https://i.imgur.com/GlfrYs7.png" group-title="India",Aaseervatham TV (576p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fmumt04.tangotv.in%2Fm18aqlK4AASEERVATHAMTV%2Findex.m3u8
-
-#EXTINF:-1 tvg-id="Aastha.in@HD" tvg-logo="https://i.imgur.com/IqgrV92.png" group-title="India",Aastha HD (720p)
-https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Faasthaott.akamaized.net%2F110923%2Fsmil%3Aaasthatv.smil%2Findex.m3u8
 
 #EXTINF:-1 tvg-id="3HD.th@SD" tvg-logo="https://i.imgur.com/YRiulCU.png" group-title="Thailand",3HD
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Flive-us1.thaimomo.com%2Flive-as%2Fch3hd-3%2Fplaylist.m3u8
@@ -1548,6 +1548,9 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Ftvsen5.ayna
 
 #EXTINF:-1 tvg-id="BoishakhiTV.bd@SD" tvg-logo="https://i.imgur.com/gxL05Y4.png" group-title="Bangladesh",Boishakhi TV
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fboishakhi.sonarbanglatv.com%2Fboishakhi%2Fboishakhitv%2Findex.m3u8
+
+#EXTINF:-1 tvg-id="CartoonNetwork.pk@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Bangladesh",Cartoon Network (Pakistan)
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fvodzong.mjunoon.tv%3A8087%2Fstreamtest%2Fcartoon-network-87%2Flive%2F87H%2Fchunks.m3u8
 
 #EXTINF:-1 tvg-id="4Music.fr@SD" tvg-logo="" group-title="Iran",4 Music
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fmusichls.persiana.live%2Fhls%2Fstream.m3u8
@@ -1898,6 +1901,9 @@ https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=http%3A%2F%2F170.83.16.50
 
 #EXTINF:-1 tvg-id="8NTV.mx@SD" tvg-logo="https://i.imgur.com/7ecgGIG.png" group-title="Mexico",8NTV (1080p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2F60417ddeaf0d9.streamlock.net%2Fntv%2Fvideontv%2Fplaylist.m3u8
+
+#EXTINF:-1 tvg-id="15TV.mx@SD" tvg-logo="https://i.imgur.com/CZ8LKmA.png" group-title="Mexico",15TV
+https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fservilive.com%3A3380%2Flive%2Fv3n6thy7glive.m3u8
 
 #EXTINF:-1 tvg-id="ADN40.mx@SD" tvg-logo="https://i.imgur.com/Og17U9N.png" group-title="Mexico",ADN 40 (720p)
 https://dhanytv-proxy.zukron-alviandy.workers.dev/?url=https%3A%2F%2Fmdstrm.com%2Flive-stream-playlist%2F60b578b060947317de7b57ac.m3u8
