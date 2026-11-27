@@ -22,7 +22,9 @@ jobs:
               with:
                   ref: experiment
                   fetch-depth: 0
-                  token: ${{ secrets.GITHUB_TOKEN }}
+                  # PAT with Contents + Workflows write. GITHUB_TOKEN cannot push
+                  # commits that touch .github/workflows/ (parent repo edits them).
+                  token: ${{ secrets.SYNC_TOKEN }}
 
             - name: Configure Git identity
               run: |
@@ -41,7 +43,29 @@ jobs:
             - name: Update experiment from parent main
               run: |
                   git fetch --no-tags origin experiment
-                  git merge --no-edit --no-ff upstream/main -m "chore: sync parent main into experiment"
+
+                  if git merge-base --is-ancestor upstream/main HEAD; then
+                    echo "experiment already contains parent main."
+                    exit 0
+                  fi
+
+                  # Conflicting hunks keep experiment's side; non-conflicting parent
+                  # changes are still merged in. Non-zero exit here just means some
+                  # conflicts are left for the cleanup below.
+                  git merge --no-commit --no-ff -X ours upstream/main || true
+                  git rev-parse -q --verify MERGE_HEAD >/dev/null || { echo "merge did not start"; exit 1; }
+
+                  # File-level conflicts (modify/delete) that -X ours can't settle:
+                  # keep experiment's version, or drop the file if experiment deleted it.
+                  git diff --name-only --diff-filter=U -z | while IFS= read -r -d '' f; do
+                    git checkout --ours -- "$f" 2>/dev/null && git add -- "$f" || git rm -q -- "$f"
+                  done
+
+                  # This fork has its own workflow at the same path as the parent's;
+                  # never let parent hunks leak into it.
+                  git checkout HEAD -- .github/workflows/auto-update.yml
+
+                  git commit --no-edit -m "chore: sync parent main into experiment"
 
             - name: Check stream availability
               run: |
